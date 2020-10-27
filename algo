@@ -1,0 +1,19 @@
+ALGORITHM produit_scalaire
+VAR
+    array_v1 : INTEGER
+    array_v2 : INTEGER
+    i:INTEGER
+    p:INTEGER
+BEGIN
+    FOR i FROM 0 TO array_v1.length STEP 1  DO
+        write ("donner l'element", i +1, "de la vecteur V1")
+        read (v (i))
+        write  ("donner l'element", i +1, "de la vecteur V2")
+    END_FOR
+ p<--0 
+FOR i FROM 0 TO array_v2.length STEP 1  DO
+    p <-- p + V1 (i) * v2(i)
+END_FOR
+write ("les produit scalaire V1 et v2 est :" , p)
+END
+
